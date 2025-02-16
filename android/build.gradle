@@ -2,7 +2,7 @@ group 'me.sodipto.phone_state_background'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.8.0'
     repositories {
         google()
         mavenCentral()
@@ -28,7 +28,7 @@ android {
       if (project.android.hasProperty("namespace")) {
         namespace = "me.sodipto.phone_state_background"
     }
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
